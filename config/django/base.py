@@ -16,6 +16,7 @@ ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['*'])
 LOCAL_APPS = [
     'devopsdjango.core.apps.CoreConfig',
     'devopsdjango.common.apps.CommonConfig',
+    'devopsdjango.blog.apps.BlogConfig',
     'devopsdjango.users.apps.UsersConfig',
     'devopsdjango.authentication.apps.AuthenticationConfig',
 ]
